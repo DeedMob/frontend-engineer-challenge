@@ -14,12 +14,14 @@ This problem is harder than it first appears, actions must be managed in the cor
 
 ## The Spec!!!
 
+#### Core Features (mandatory)
+
 - Hit the API **once and only once** per query change (you can use api/index or your own implementation)
 - When the query updates -> update the URL and fetch results from the API.
 - When the URL updates -> update the query and fetch results from the API.
 - The browser's back / forward buttons should keep the app state (query + results) in sync with the URL (this is a gotcha if not thought about carefully).
 
-#### Bonus Features
+#### Bonus Features (optional)
 
 - Handle the concurrent actions issue - "If the user changes the query input while there is still a pending request from a previous query change, the current pending request should be cancelled and a new request should be made."
 - Debounce the fetching of results by 100ms.
