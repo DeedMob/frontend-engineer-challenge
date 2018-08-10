@@ -1,5 +1,7 @@
 # Welcome to the Deedmob front end developer coding challenge!
 
+Please make sure to read through this page thoroughly and understand what is expected (Every item in the Spec should work)
+
 ## Friend List
 
 ![alt tag](friendlist.gif)
@@ -10,7 +12,7 @@ Create an app with a dynamic and search-able list of data that keeps a search in
 
 This problem is harder than it first appears, actions must be managed in the correct order, and if not can result in infinite loops and other undesirable behavior.
 
-## The Spec
+## The Spec!!!
 
 - Hit the API **once and only once** per query change (you can use api/index or your own implementation)
 - When the query updates -> update the URL and fetch results from the API.
