@@ -25,7 +25,6 @@ This problem is harder than it first appears, actions must be managed in the cor
 
 - Handle the concurrent actions issue - "If the user changes the query input while there is still a pending request from a previous query change, the current pending request should be cancelled and a new request should be made."
 - Debounce the fetching of results by 100ms.
-- Log any state changing action with the newly changed state.
 - Add loading and/or error states
 
 ## Rules
